@@ -1,0 +1,14 @@
+package aula00;
+
+public class UsaCliente {
+
+	public static void main(String[] args) {
+		Cliente c1 = new Cliente("Joao");
+		Cliente c2 = new Cliente("Maria");
+		
+		System.out.println(c1.nome);
+		System.out.println(c2.nome);
+		System.out.println(c1.cidade);		
+	}
+
+}
