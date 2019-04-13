@@ -1,0 +1,12 @@
+package aula02;
+
+public class Funcionario {
+	protected String nome;
+	protected String cpf;
+	protected String status;
+	protected double salario;
+	
+	double getBonus() {
+		return this.salario * 0.05;
+	}
+}

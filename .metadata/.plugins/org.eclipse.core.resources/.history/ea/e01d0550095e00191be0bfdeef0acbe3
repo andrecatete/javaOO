@@ -1,0 +1,14 @@
+package aula02;
+
+public class ContaTrans2 {
+
+	public static void main(String[] args) {
+		int numero;
+		String 
+		Cliente cliente;
+		double saldo;
+		double limite;
+
+	}
+
+}

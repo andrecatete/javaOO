@@ -1,0 +1,12 @@
+package aula02;
+
+public class Funcionario {
+	protected String nome;
+	protected private String cpf;
+	protected private String status;
+	protected private double salario;
+	
+	void calculoBonificacao(double bonus) {
+		salario += bonus;
+	}
+}

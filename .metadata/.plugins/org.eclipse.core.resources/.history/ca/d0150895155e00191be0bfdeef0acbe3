@@ -1,0 +1,15 @@
+package aula02;
+
+public class ControleBonus {
+	private double totalBonus = 0;
+	
+	public void setTotalBonus(Funcionario funcionario) {
+		this.totalBonus += funcionario.getBonus();
+	}
+	
+	public void getTotalBonus() {
+		return this.totalBonus;
+	}
+	
+	
+}

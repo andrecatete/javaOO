@@ -1,0 +1,21 @@
+package aula02;
+
+import aula00.Cliente;
+
+public class ContaTrans2 {
+
+	public static void main(String[] args) {
+		int numero;
+//		String nome;
+//		Cliente cliente;
+		double saldo;
+		double limite;
+
+		Cliente cliente = new Cliente();
+		
+		ContaTrans2(){
+			System.err.println("testando o construtor");
+		}
+	}
+
+}

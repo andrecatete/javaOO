@@ -1,0 +1,16 @@
+package aula02;
+
+public class DBA extends Funcionario{
+	int senha;
+	
+	public boolean verificaSenha(int senha) {
+		if (this.senha == senha) {
+			System.out.println("Acesso autorizado");
+			return true;			
+		} else {
+			System.err.println("Acesso negado");
+			return false;
+		}
+		
+	}
+}

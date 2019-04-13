@@ -1,0 +1,12 @@
+import aula02.ContaTrans2;
+
+public class TestaContaClente {
+
+	public static void main(String[] args) {
+		ContaTrans2 c2 = new ContaTrans2();
+		c2.cliente.nome = "joao";
+		System.err.println(c2.cliente.nome);
+
+	}
+
+}

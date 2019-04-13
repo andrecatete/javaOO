@@ -1,0 +1,14 @@
+package aula02;
+
+public class TestaContaClente {
+
+	public static void main(String[] args) {
+		ContaTrans2 c2 = new ContaTrans2("joao", "123.456.789-20");
+		Cliente c1 = new Cliente();
+		c2.cliente = c1; 
+		c2.cliente.nome = "joao";
+		System.err.println(c2.cliente.nome);
+
+	}
+
+}
